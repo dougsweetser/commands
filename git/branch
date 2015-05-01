@@ -1,0 +1,5 @@
+### Track upstream
+git branch -u origin/branch_name
+
+v 1.7
+git branch --set-upstream branch_name origin/branch_name
