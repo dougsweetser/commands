@@ -89,5 +89,9 @@ let g:LustyJugglerDefaultMappings = 1
 nmap <silent> <leader>l :LustyJuggler<CR>
 nmap <silent> <leader>k :LustyBufferExplorer<CR>
 
+" YouCompleteMe: ^P pull words found ahead, ^N back
+set complete=.,b,u,]
+set wildmode=longest,list:longest
+
 " YankRing
 nnoremap <silent> <leader>y :YRShow<CR>
