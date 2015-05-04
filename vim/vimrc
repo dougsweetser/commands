@@ -83,7 +83,7 @@ let g:airline_powerline_fonts = 1
 " Folding code: F
 set nofoldenable
 
-" LustyJuggler
+" LustyJuggler: ,l list files  ,k list buffers
 set hidden
 let g:LustyJugglerDefaultMappings = 1
 nmap <silent> <leader>l :LustyJuggler<CR>
