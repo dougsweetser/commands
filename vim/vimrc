@@ -18,6 +18,12 @@ let mapleader=","
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
+" Disable highlight when <leader><cr> is pressed
+map <silent> <leader><cr> :noh<cr>
+
+" spelling: ]s, zg(ood)
+:setlocal spell spelllang=en_us
+
 " sort alphabetically: ,s
 vnoremap <Leader>s :sort<CR>
 
